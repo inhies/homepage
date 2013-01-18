@@ -31,6 +31,7 @@
 						echo '<div class="date">'.$date.'</div>';
 						echo '<div class="time">'.$time.'</div>';
 						echo Markdown($contents);
+						echo '<p>the end.</p>'
 						echo '<div class="author">Posted by '.$author.'.</div>';
 						echo '</div>';
 					}
